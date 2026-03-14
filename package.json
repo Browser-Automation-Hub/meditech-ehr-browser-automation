@@ -1,0 +1,38 @@
+{
+  "name": "meditech-ehr-browser-automation",
+  "version": "1.0.0",
+  "description": "Browser automation for Meditech EHR — extract clinical data, schedule patients, navigate MAGIC and Expanse interfaces, and automate healthcare workflows without the Meditech API.",
+  "main": "src/actions.js",
+  "scripts": {
+    "start": "node examples/basic-login.js",
+    "start:cloud": "node examples/anchor-cloud.js",
+    "test": "node -e \"require('./src/auth'); require('./src/actions'); require('./src/utils'); console.log('✓ All modules load correctly')\""
+  },
+  "keywords": [
+    "meditech",
+    "meditech-ehr",
+    "healthcare-automation",
+    "browser-automation",
+    "puppeteer",
+    "playwright",
+    "anchorbrowser",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "dotenv": "^16.0.0",
+    "otpauth": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Browser-Automation-Hub/meditech-ehr-browser-automation.git"
+  },
+  "homepage": "https://github.com/Browser-Automation-Hub/meditech-ehr-browser-automation#readme",
+  "bugs": {
+    "url": "https://github.com/Browser-Automation-Hub/meditech-ehr-browser-automation/issues"
+  }
+}
