@@ -253,6 +253,14 @@ await withAnchorBrowser(async (page) => {
 
 ---
 
+## Known Selectors Reference
+
+> These CSS selectors were observed in Meditech EHR web interfaces. Enterprise applications update their UIs — verify against your specific instance and submit PRs when selectors break.
+
+> 🔍 Selector reference not yet documented for Meditech EHR. [Contribute selectors via PR](https://github.com/Browser-Automation-Hub/meditech-ehr-browser-automation/pulls).
+
+---
+
 ## More Browser Automation Projects
 
 This is part of the **[Browser Automation Hub](https://github.com/Browser-Automation-Hub)** — a collection of open-source browser automation scaffolds for systems with poor or no API support:
